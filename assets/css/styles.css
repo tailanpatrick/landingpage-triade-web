@@ -1,0 +1,248 @@
+.intro-content {
+    position: relative;
+    top: -2rem;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intro-text-content h2 {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.intro-text-content h2 p {
+    font-size: 2rem;
+    flex: 1;
+
+}
+
+.intro-img img,
+.intro-img svg {
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+
+.hist-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    max-width: 64rem;
+    text-align: center;
+}
+
+.grid-one-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+.grid-one-content h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5.5rem; 
+}
+
+
+.grid h3 {
+    display: flex;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+
+}
+
+.grid p::first-letter{
+    text-transform: capitalize;
+}
+
+.grid article h3::before {  
+    margin-bottom: 2rem;  
+}
+
+.grid article:nth-child(1) h3::before {
+    content: '';
+    width: 150px;
+    height: 150px;
+    background: url('../img/html.png');
+    background-size: cover;
+    margin-top: -1rem;
+}
+
+.grid article:nth-child(2) h3::before {
+    content: '';
+    width: 13rem;
+    height: 13rem;
+    background: url('../img/css.png');
+    background-size: cover;
+    
+}
+
+.grid article:nth-child(3) h3::before {
+    content: '';
+    width: 130px;
+    height: 130px;
+    background: url('../img/js.png');
+    background-size: cover;
+
+}
+
+.gallery {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.gallery h2 {
+    text-align: center;
+}
+
+.gallery h3 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.gallery img {
+    cursor:pointer;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-in-out;
+}
+
+.gallery img[alt*="FastCleaner"]{
+    cursor: not-allowed;
+}
+
+.gallery img:hover {
+    transform: translate(0%, 2%) scale(1.5);
+}
+
+#projetos {
+    text-align: center;
+}
+
+#projetos p {
+   display: inline-block;
+   ;
+   margin-top: 1rem;
+   margin-bottom: 4rem;
+   font-size: 2.6rem;
+   font-weight: bold;
+}
+
+div.contact-form {
+    grid-column: span 2;
+    box-sizing: border-box; 
+    position: relative;
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+
+.contact-form .form-grid {
+    border: none;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+
+.contact-form h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block; 
+    font-style: italic;
+    font-size: 1.8rem;
+    margin-bottom: -1rem;
+
+}
+
+.form-group input {
+    max-width: 70%;
+}
+
+.form-group input::placeholder {
+    font-size: 2.2rem;
+}
+
+.form-group input,
+.form-group textarea {
+    border:none;
+    background: var(--color-white);
+    padding: 1.5rem 2rem;
+    width: 80%;
+    margin: 2rem auto;
+    font-size: 2.5rem;
+}
+
+.form-group::placeholder {
+    color: rgba(153, 153, 153, 0.1);;
+    font-weight: bold;
+    opacity: 0.1%;
+}
+
+.form-group button {
+    border: 0.5rem solid var(--color-white);
+    background: none;
+    color: var(--color-white);
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover {
+    border: 0.5rem solid var(--color-primary);
+    background:var(--color-white);
+    color: var(--color-primary);
+
+}
+
+.full-width {
+    width: 100%;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.rodape p {
+    margin: 0;
+    padding: 3rem;
+}
+
+.rodape a {
+    color: var(--color-primary);
+}
+
+.rodape .heart {
+    color: yellow;
+}

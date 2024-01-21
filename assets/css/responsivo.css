@@ -1,0 +1,186 @@
+
+
+@media (max-width:1000px){ 
+    .intro-content {
+        top:-5rem;
+    }
+    
+    .section {
+        height: unset;
+    }
+    
+    .hist-content {
+        height: unset;
+    }
+
+    .hist-content h2 {
+        font-size: 4rem;
+    }
+
+    .grid-one-content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        max-width: 100vw;
+        height: unset;
+    }
+    
+    .grid-one-content h2 {
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 4rem; 
+        font-size: 4rem;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 2rem; 
+    }
+
+    .grid h3 {
+        justify-content: center;
+    }
+
+    .grid p {
+        text-align: center;
+        font-size: 2.2rem;
+
+    }
+
+    .gallery {
+        height: unset;
+    }
+
+    .gallery img {
+        width: 80vw;
+    }
+
+    .gallery p {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .gallery img:hover {
+        transform: none;
+    }
+
+    .contact-form h2 {
+        margin-top: 5rem;
+    }
+    .contact-form h3 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    div.contact-form img {
+        display: none;
+    }
+
+    .form-group textarea {
+       height: 10em;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 110%;
+        font-size: 2.2rem;
+    }
+
+    .form-group input {
+        max-width: 120%;
+    }
+    
+    
+}
+
+@media (min-width:1001px) and (max-width:1600px){ 
+    
+    .hist-content h2 {
+        font-size: 4rem;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    .grid-one-content .menu-spacing {
+        height: unset;
+    }
+   
+    .grid-one-content h2 {
+        font-size: 4rem;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 2rem; 
+    }
+
+    .gallery h2 {
+        font-size: 4rem;
+    }
+
+    .gallery h3 {
+        font-size: 2rem;
+    }
+
+    .grid h3 {
+        justify-content: center;
+    }
+
+    .grid p {
+        text-align: center;
+        font-size: 1.5rem;
+
+    }
+    .gallery img {
+        width: 22vw;
+    }
+    div.contact-form {
+        grid-column: span 2;
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
+        min-height: 100vh;
+    }
+
+    .form-group label {
+        display: block; 
+        font-style: italic;
+        font-size: 1.5rem;
+        margin-bottom: -1rem;
+    
+    }
+    
+    .form-group input {
+        max-width: 70%;
+    }
+    
+    .form-group input::placeholder {
+        font-size: 1.8rem;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        border:none;
+        background: var(--color-white);
+        padding: 1.5rem 2rem;
+        width: 80%;
+        margin: 2rem auto;
+        font-size: 1.5rem;
+        max-height: 10rem;
+    }
+
+    .form-group button {
+        border: 0.3rem solid var(--color-white);
+        background: none;
+        color: var(--color-white);
+        padding: 1.0rem 2rem;
+        font-size: 2rem;
+        cursor: pointer;
+        transition: all 300ms ease-in-out;
+    }
+    
+    
+}
