@@ -171,6 +171,10 @@ div.contact-form {
     
 }
 
+.contact-form h2 {
+    padding-top: 1.5rem;
+}
+
 .contact-form h3 {
     font-size: 2rem;
     margin-bottom: 2rem;

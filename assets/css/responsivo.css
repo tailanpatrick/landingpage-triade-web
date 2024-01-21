@@ -145,6 +145,10 @@
         min-height: 100vh;
     }
 
+    .contact-form h2 {
+        margin-bottom: 1.2rem;
+    }
+
     .form-group label {
         display: block; 
         font-style: italic;
