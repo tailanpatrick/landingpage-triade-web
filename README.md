@@ -8,4 +8,4 @@ Sendo a primeira landing page feita por mim (nesse estilo).
 
 Linguagens e tecnologias usadas: HTML5, CSS3, JavaScript.
 
-Ele se encontra disponível para uso em: https://tailanpatrick.github.io/app-clima/
+Ele se encontra disponível para uso em: https://tailanpatrick.github.io/landingpage-triade-web/
