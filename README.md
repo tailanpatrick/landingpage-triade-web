@@ -1,6 +1,6 @@
 __Landing Page TRIADE WEB com Projetos Tailan Patrick__
 
-Uma página que resume rapidamente sobre as três linguagens e/ou tecnologias da Web: HTML, CSS e JavaScript.
+Uma landing page que resume rapidamente sobre as três linguagens e/ou tecnologias da Web: HTML, CSS e JavaScript.
 
 Além de conter os links para alguns projetos que eu desenvolvi utilizando essas linguagens e/ou tecnologias.
 
