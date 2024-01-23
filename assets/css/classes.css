@@ -24,3 +24,7 @@
 .menu-spacing {
     height: 6.5rem;
 }
+
+.close-menu {
+    display: none;
+}

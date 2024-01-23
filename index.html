@@ -17,13 +17,16 @@
 </head>
 
 <body>
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="Fechar menu">
+    <label class="close-menu-label" for="close-menu" title="Fechar Menu"></label>
+
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1><a href="#intro">
                     <img src="./assets/img/logo-triade.webp" alt="" srcset="">
                 </a></h1>
             <nav>
-                <ul>
+                <ul onclick="document.getElementById('close-menu').checked = false;">
                     <li><a href="#intro">intro</a></li> 
                     <li><a href="#hist">história</a></li>
                     <li><a href="#triade">descrição</a></li>
