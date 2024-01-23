@@ -7,3 +7,6 @@ Além de conter os links para alguns projetos que eu desenvolvi utilizando essas
 Sendo a primeira landing page feita por mim (nesse estilo).
 
 Linguagens e tecnologias usadas: HTML5, CSS3, JavaScript.
+
+Ele se encontra disponível para uso em: https://tailanpatrick.github.io/landingpage-triade-web/
+
