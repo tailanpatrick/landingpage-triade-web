@@ -1,4 +1,59 @@
 @media (max-width:1000px){ 
+    .menu {
+        bottom: 0;
+        text-align: center;
+    }
+
+    .menu-content,
+    .menu-content ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-content {
+        height: 100vh;
+    }
+
+    .menu-content ul li {
+        font-weight: bold;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .close-menu-label::after {
+        content: '';
+        position: fixed;
+        z-index: 3;
+        top:10px;
+        right:20px;
+        background-image: url(../img/menu-mobile.png);
+        background-size: cover;
+        -webkit-filter: drop-shadow(2px 2px 1px #fff);
+        filter: drop-shadow(2px 2px 1px #fff);
+        width: 70px;
+        height: 70px;
+        cursor: pointer;
+        
+    }
+
+    .close-menu:checked~ .menu{
+        display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after{
+        background-image: url(../img/fechar-menu-mobile.png);
+        background-size: cover;
+        -webkit-filter: drop-shadow(2px 2px 1px #222);
+        filter: drop-shadow(2px 2px 1px #222);
+        transition: all 200ms ease-in-out
+    }
+
+    #intro .menu-spacing {
+        display: block;
+    }
+
     .intro-content {
         top:-5rem;
     }
@@ -63,6 +118,10 @@
         transform: none;
     }
 
+    .contact-form{
+        min-height: 100vh;
+    }
+
     .contact-form h2 {
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -82,14 +141,18 @@
 
     .form-group input,
     .form-group textarea {
-        width: 110%;
+        width: 100%;
         font-size: 2.2rem;
     }
 
     .form-group input {
-        max-width: 120%;
+        max-width: 110%;
     }
-    
+
+    #contato .menu-spacing {
+        
+    }
+ 
     
 }
 
