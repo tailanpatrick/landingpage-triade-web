@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tríade Web e Projetos Tailan Patrick</title>
+    <title>Tríade Web</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
@@ -145,18 +145,18 @@
         <div class="main-content intro-content">
             <div class="menu-spacing"></div>
             <div class="contact-form">
-                
+            <form onsubmit="sendMessage();">
                 <fieldset class="form-grid">
                     <legend><h2>Contato</h2></legend>
                     <h3>Interessado em  me ter na sua equipe?</h3>
                     <div class="form-group">
-                        <label for="first-name">Seu Nome: </label>
-                        <input type="text" name="first-name" id="first-name" placeholder="Seu Nome">
+                        <label for="name">Seu Nome: </label>
+                        <input type="text" name="name" id="name" placeholder="Seu Nome" required>
                     </div>
 
                     <div class="form-group full-width">
                         <label for="message">Sua Mensagem: </label>
-                        <textarea name="message" id="message" cols="20" rows="5" placeholder="Sua Mensagem"></textarea>
+                        <textarea name="message" id="message" cols="20" rows="5" placeholder="Sua Mensagem"></textarea required>
                     </div>
 
                     <div class="form-group full-width">
@@ -164,7 +164,7 @@
                     </div>
 
                 </fieldset>
-
+            </form>
                 <div class="intro-img">
                     <img src="./assets/img/javascript.svg"
                         alt="Homem segurando a logo do CSS, uma mulher segurando a logo do Javascript e outro homem segurando a logo do HTML"
@@ -179,6 +179,8 @@
     <footer id="rodape" class="main-content rodape white-bg">
         <p><a href="https://www.linkedin.com/in/tailanpatrick" target="_blank"> Desenvolvido com carinho <span class="heart">💛</span><br> por: Tailan Patrick</a></p> 
     </footer>
+
+    <script src="./assets/js/form.js"></script>
 
 </body>
 
