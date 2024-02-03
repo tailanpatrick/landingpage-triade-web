@@ -5,8 +5,8 @@ function sendMessage(){
     const name = document.getElementById('name').value.trim();
     const message = document.getElementById('message').value.trim();
 
-    let fullMessage = `Oi, sou ${name}, e estou entrando em contato pelo formulário da sua página ${document.title}. \n\n`;
-    fullMessage += `Mensagem: ${message}`;
+    let fullMessage = `Oi, sou *${name}*, e estou entrando em contato pelo formulário da sua página ${document.title}. \n\n`;
+    fullMessage += message;
 
     const encode = encodeURIComponent(fullMessage);
 
